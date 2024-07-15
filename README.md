@@ -1,22 +1,28 @@
-# Challange Literatura
-Reto Allura Literatura
+## Challange Literatura
+
+[![libros](https://blogs.ucv.es/biblioteca/files/2018/01/Biblioteca-por-colores.jpg "libros")](http://https://blogs.ucv.es/biblioteca/files/2018/01/Biblioteca-por-colores.jpg "libros")
+
+### Descripción:
+- Proyecto se realizo utilizando Spring y una base de datos PostgreSQL. La información obtenida por medio de una API de libros, donde se utiliza la información de libros y autores para crear entidades en la base de datos..
+
+### Caracteristicas:
+- Buscar libro por título.
+- Listar libros registrados.
+- Listar autores registrados.
+- Listar autores vivos en un determinado año
+- Listar libros por idioma (ES, EN, FR, PT).
+- Top 10 libros más descargados
+- Muestra el libro más y menos descargado
 
 
-**Descripción**:
-Este proyecto ha sido realizado utilizando Spring y una base de datos PostgreSQL. La información es obtenida de una API de libros, donde se utiliza la información de libros y autores para crear entidades en la base de datos.
+### Tecnologías utilizadas:
+- Spring Framework 
+- PostgreSQL
+- Streams y Lambdas en Java
+- JPQL (Java Persistence Query Language)
+- Consultas Derivadas (Derived Queries)
+- Jackson para Deserialización
 
 
-**Características**
-Obtención de Información: La aplicación obtiene información de una API de libros, incluyendo detalles de libros y autores.
-Persistencia en Base de Datos: Los libros y autores encontrados se guardan en la base de datos PostgreSQL.
-Interacción por Consola: Los usuarios interactúan con la aplicación a través de la consola, realizando consultas de libros y guardando los resultados.
-Consultas y Estadísticas: Se pueden realizar consultas y obtener estadísticas sobre la cantidad de libros en un determinado idioma, año, por autor, utilizando streams, lambdas, JPQL y derived queries.
 
-
-**Tecnologías Utilizadas**
-Spring Framework
-PostgreSQL
-Streams y Lambdas en Java
-JPQL (Java Persistence Query Language)
-Consultas Derivadas (Derived Queries)
-Jackson para Deserialización
+##### Creado por Denisse García
